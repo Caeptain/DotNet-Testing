@@ -6,11 +6,14 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
-
+	<!-- Does not currently work with .NET 7.0 -->
+	<!-- 	
 	<ItemGroup>
 		<PackageReference Include="NodaTime"
 						  Version="3.1.9" />
 	</ItemGroup>
+	-->
+
 
 </Project>
  
