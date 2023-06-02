@@ -3,7 +3,7 @@ using CoreLib;
 
 namespace EntityFrameworkLib.Entities;
 
-public class TodoEntity : Entity
+public class TodoEntity : EntityWithKey<Guid>
 {
     [Required]
     public string? Title { get; set; }
