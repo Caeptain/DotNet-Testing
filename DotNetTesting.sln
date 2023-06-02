@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib", "EntityFrameworks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkLib", "EntityFrameworksT\libs\EntityFrameworkLib\EntityFrameworkLib.csproj", "{BB9E20A3-0BD8-4C34-9672-EE4551802DC1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoWebApplication", "EntityFrameworksT\TodoWebApplication\TodoWebApplication.csproj", "{9050DFDF-15FD-46ED-9F10-00C374D0486B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebApi", "EntityFrameworksT\TodoWebApi\TodoWebApi\TodoWebApi.csproj", "{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{BB9E20A3-0BD8-4C34-9672-EE4551802DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9E20A3-0BD8-4C34-9672-EE4551802DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9E20A3-0BD8-4C34-9672-EE4551802DC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,7 +62,7 @@ Global
 		{B5282E8B-421F-425D-B0DE-1DB8084A0004} = {465CE220-2F10-412B-8B95-A2E593E2B221}
 		{9D8C84DB-52EE-41C3-9DEE-9C169A9DC2E2} = {B5282E8B-421F-425D-B0DE-1DB8084A0004}
 		{BB9E20A3-0BD8-4C34-9672-EE4551802DC1} = {B5282E8B-421F-425D-B0DE-1DB8084A0004}
-		{9050DFDF-15FD-46ED-9F10-00C374D0486B} = {465CE220-2F10-412B-8B95-A2E593E2B221}
+		{199D8336-AFA1-4AC5-A363-3D6FACFDE0DA} = {465CE220-2F10-412B-8B95-A2E593E2B221}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE5F2A01-B5AB-4468-BB59-809FCE458B57}
