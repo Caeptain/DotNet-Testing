@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLib", "EntityFrameworks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkLib", "EntityFrameworksT\libs\EntityFrameworkLib\EntityFrameworkLib.csproj", "{BB9E20A3-0BD8-4C34-9672-EE4551802DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebApplication", "EntityFrameworksT\TodoWebApplication\TodoWebApplication.csproj", "{9050DFDF-15FD-46ED-9F10-00C374D0486B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoWebApplication", "EntityFrameworksT\TodoWebApplication\TodoWebApplication.csproj", "{9050DFDF-15FD-46ED-9F10-00C374D0486B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

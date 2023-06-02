@@ -4,6 +4,7 @@ var nodaTimeZones = DateTimeZoneProviders.Tzdb.Ids;
 
 var frontendTimes = GetFrontendTimesString()
     .Replace("\"", string.Empty)
+    .Trim()
     .Split(", ")
     .ToList();
 
