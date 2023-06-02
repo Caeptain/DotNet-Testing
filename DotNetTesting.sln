@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkLib", "Entit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebApplication", "EntityFrameworksT\TodoWebApplication\TodoWebApplication.csproj", "{9050DFDF-15FD-46ED-9F10-00C374D0486B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApplication", "EntityFrameworksT\TestWebApplication\TestWebApplication.csproj", "{D6D73960-7D26-431E-82FF-B55D98601BCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9050DFDF-15FD-46ED-9F10-00C374D0486B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D73960-7D26-431E-82FF-B55D98601BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D73960-7D26-431E-82FF-B55D98601BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D73960-7D26-431E-82FF-B55D98601BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D73960-7D26-431E-82FF-B55D98601BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{9D8C84DB-52EE-41C3-9DEE-9C169A9DC2E2} = {B5282E8B-421F-425D-B0DE-1DB8084A0004}
 		{BB9E20A3-0BD8-4C34-9672-EE4551802DC1} = {B5282E8B-421F-425D-B0DE-1DB8084A0004}
 		{9050DFDF-15FD-46ED-9F10-00C374D0486B} = {465CE220-2F10-412B-8B95-A2E593E2B221}
+		{D6D73960-7D26-431E-82FF-B55D98601BCA} = {465CE220-2F10-412B-8B95-A2E593E2B221}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE5F2A01-B5AB-4468-BB59-809FCE458B57}
