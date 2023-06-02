@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeZoneTesting", "TimeZoneTesting\TimeZoneTesting.csproj", "{2600D996-0D44-4224-82C4-DB62966CA2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTimeZoneInfo", "TestingTimeZone\TestTimeZoneInfo\TestTimeZoneInfo.csproj", "{2600D996-0D44-4224-82C4-DB62966CA2E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestingTimeZone", "TestingTimeZone", "{A75553C5-B59E-496A-95BB-5642524D1C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodaTime", "TestingTimeZone\TestNodaTime\NodaTime\NodaTime.csproj", "{C8FDF959-344E-4C09-B226-1BEF5790C89E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{2600D996-0D44-4224-82C4-DB62966CA2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2600D996-0D44-4224-82C4-DB62966CA2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2600D996-0D44-4224-82C4-DB62966CA2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FDF959-344E-4C09-B226-1BEF5790C89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FDF959-344E-4C09-B226-1BEF5790C89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FDF959-344E-4C09-B226-1BEF5790C89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FDF959-344E-4C09-B226-1BEF5790C89E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2600D996-0D44-4224-82C4-DB62966CA2E4} = {A75553C5-B59E-496A-95BB-5642524D1C16}
+		{C8FDF959-344E-4C09-B226-1BEF5790C89E} = {A75553C5-B59E-496A-95BB-5642524D1C16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE5F2A01-B5AB-4468-BB59-809FCE458B57}
