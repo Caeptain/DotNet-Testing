@@ -12,7 +12,10 @@ var check = nodaTimeZones.Intersect(frontendTimes).Any();
 Console.WriteLine($"Contains all TimeZones: {check}");
 //check length of longest string in frontendTimes
 var longest = frontendTimes.OrderByDescending(x => x.Length).First();
-Console.WriteLine($"Longest Country: {longest}\t length: {longest.Length}");
+Console.WriteLine($"Longest Country Frontend: {longest}\t length: {longest.Length}");
+
+var longestBackend = nodaTimeZones.OrderByDescending(x => x.Length).First();
+Console.WriteLine($"Longest Country Backend: {longestBackend}\t length: {longestBackend.Length}");
 
 Console.ReadLine();
 
