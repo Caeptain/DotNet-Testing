@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoWebApi", "EntityFramewo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBusT", "ServiceBusT", "{0F1B5BB9-EA8B-4B70-ADDD-E5D910A4E30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusTesting", "ServiceBusTesting\ServiceBusTesting.csproj", "{6DC256B8-0BDE-4A94-87E4-188BFA8F9EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusT", "ServiceBusT\ServiceBusT.csproj", "{6DC256B8-0BDE-4A94-87E4-188BFA8F9EEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
