@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using Azure.Messaging.ServiceBus;
 
-var client = new ServiceBusClient("Endpoint=sb://sb-hwcs-test-gwc.servicebus.windows.net/;SharedAccessKeyName=IoTHubFunctionApp;SharedAccessKey=L3w4W631Qid+KwP02+vtgNrbhOpOzC9lfaF8Q0J2FjA=;EntityPath=update-radionetwork-job-messages");
+var client = new ServiceBusClient("");
 var sender = client.CreateSender("update-radionetwork-job-messages");
 
 //await MicrosoftSolution(client, sender, 3);
