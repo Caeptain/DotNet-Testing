@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddEntityFrameworkDatabase(builder.Configuration.GetConnectionString("Todo"));
+builder.Services.AddEntityFrameworkDatabase(builder.Configuration.GetConnectionString("Todo")!);
 
 builder.Services.AddScoped<ITodosService, TodosService>();
 
