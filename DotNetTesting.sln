@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTimeZoneInfo", "TimeZon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeZoneT", "TimeZoneT", "{A75553C5-B59E-496A-95BB-5642524D1C16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodaTime", "TimeZoneT\TestNodaTime\NodaTime\NodaTime.csproj", "{C8FDF959-344E-4C09-B226-1BEF5790C89E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodaTime7", "TimeZoneT\TestNodaTime\NodaTime7\NodaTime7.csproj", "{C8FDF959-344E-4C09-B226-1BEF5790C89E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodaTime6", "TimeZoneT\TestNodaTime\NodaTime6\NodaTime6.csproj", "{D3E3121A-3EF3-4173-9239-2D2CB9A1D775}"
 EndProject
@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubReceiverT", "EventH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubSenderT", "EventHubSenderT\EventHubSenderT.csproj", "{05CEBA1D-A827-45E7-ABD7-CE35BF802A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusReceiverT", "ServiceBusReceiverT\ServiceBusReceiverT.csproj", "{ECC68FCF-BA6C-4B95-8E61-E970308ABB9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusReceiverT", "ServiceBusReceiverT\ServiceBusReceiverT.csproj", "{ECC68FCF-BA6C-4B95-8E61-E970308ABB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
