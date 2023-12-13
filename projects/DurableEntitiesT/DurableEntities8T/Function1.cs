@@ -22,13 +22,13 @@ public partial class EntityTester
       int amount,
       [DurableClient] DurableTaskClient client)
     {
-        var entityId = new EntityInstanceId(nameof(Counter), "myCounter");
+        var entityId = new EntityInstanceId(nameof(Counter), "myCounter2");
         if (amount > 0)
         {
             await client.Entities.SignalEntityAsync(entityId, "Add", amount);
         }
 
-        var entity = await client.Entities.GetEntityAsync<int>(entityId);
+        var entity = await client.Entities.GetEntityAsync(entityId);
 
         if (entity is null)
         {
