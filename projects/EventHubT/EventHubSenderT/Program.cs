@@ -91,7 +91,7 @@ static EventData CreateEventHubEvent(TimeKeepingOeeEventType eventType, Guid sig
 
     return new EventData(JsonSerializer.Serialize(message))
     {
-        ContentType = nameof(OeeEventHubMessage) + "/json",
+        ContentType = "AvailabilityTimeKeepingEvent/json",
         MessageId = message.GetMessageId(),
     };
 }
