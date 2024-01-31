@@ -17,7 +17,7 @@ try
 {
     await SendEventHubEventAsync(eventHubClient, signalTowerId, timestamp);
     await SendServiceBusEventAsync(sender, signalTowerId, timestamp);
-    Console.WriteLine($"{DateTimeOffset.UtcNow}\tEvents were sent");
+    Console.WriteLine($"{signalTowerId} Events were sent");
 }
 catch (Exception)
 {
@@ -91,7 +91,7 @@ static EventData CreateEventHubEvent(TimeKeepingOeeEventType eventType, Guid sig
 
     return new EventData(JsonSerializer.Serialize(message))
     {
-        ContentType = "AvailabilityTimeKeepingEvent/json",
+        ContentType = "OeeEventHubMessage/json",
         MessageId = message.GetMessageId(),
     };
 }
